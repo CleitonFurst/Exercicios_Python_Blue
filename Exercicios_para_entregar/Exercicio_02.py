@@ -15,7 +15,9 @@ for i  in frase:
         cont += 1
 #declaração do for para retirar as vogais
 for i in 'AEIOU':
-    #adicionando 
+    #adicionando a frase a variavel cons sem a vogal que foi substituida por vazio
     cons = frase.replace(i,'')
+    #adicionando a frase sem vogal a frase novamente para atualizar
     frase = cons
+#impriemindo a qauntidade de vogais na frase e a frase sem as vogais 
 print(f'As vogais (a,e,i,o,u) aparecem na frase {cont} e a frase sem as vogais fica {cons}')
